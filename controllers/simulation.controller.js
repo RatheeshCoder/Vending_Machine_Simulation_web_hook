@@ -5,7 +5,7 @@
 
 // --- Constants ---
 const MAX_PAYLOAD_HISTORY = 20;
-const WEBHOOK_URL_BASE = "http://localhost:5000/api/v1/simulation/ingest";
+const WEBHOOK_URL_BASE = "https://vending-machine-simulation-web-hook.onrender.com/api/v1/simulation/ingest";
 
 // --- ENUMS (matching your schema) ---
 export const MACHINE_STATUS = {
